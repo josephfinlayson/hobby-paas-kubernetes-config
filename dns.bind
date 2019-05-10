@@ -1,0 +1,11 @@
+$ORIGIN josephfinlayson.com.
+@	900	IN	SOA	ns-1258.awsdns-29.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@	86400	ALIAS	A s3-website-us-east-1.amazonaws.com. Z3AQBSTGFYJSTF false
+@	172800	IN	NS	ns-81.awsdns-10.com.
+@	172800	IN	NS	ns-1821.awsdns-35.co.uk.
+@	172800	IN	NS	ns-1258.awsdns-29.org.
+@	172800	IN	NS	ns-559.awsdns-05.net.
+*	60	IN	A	35.243.247.70
+hello	300	IN	A	35.243.247.70
+terminator	86400	ALIAS	A d35p72q452c10f.cloudfront.net. Z2FDTNDATAQYW2 false
+www	300	IN	CNAME	@
